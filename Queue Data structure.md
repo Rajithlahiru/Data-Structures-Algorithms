@@ -33,11 +33,11 @@ public class Main {
         Queue<Integer> queue = new LinkedList<>();
 
         // Enqueue elements
-        queue.add(10);
-        queue.add(20);
-        queue.add(30);
-        queue.add(40);
-        queue.add(50);
+        queue.offer(10);
+        queue.offer(20);
+        queue.offer(30);
+        queue.offer(40);
+        queue.offer(50);
 
         // Peek at the front element
         System.out.println("Front element is: " + queue.peek());
@@ -55,4 +55,5 @@ public class Main {
         }
     }
 }
+
 
